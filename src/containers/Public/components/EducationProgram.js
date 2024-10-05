@@ -33,7 +33,7 @@ function EducationProgram({ line }) {
         </div> : <div className="w-[1110px] py-[30px] m-auto">
             <div>
                 <h1 className="uppercase font-bold text-[36px] text-[#4195f2] text-center mb-[30px] ">Chương trình đào tạo</h1>
-                <div className="h-[650px] bg-[#3cbac8] mb-6">
+                <div className="h-[650px] mb-6">
                     <video controls loop muted autoPlay>
                         <source src={video}/>
                     </video>
