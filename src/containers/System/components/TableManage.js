@@ -64,7 +64,7 @@ function TableManage({ data, recruitment }) {
     }
 
     return (<table className="w-full text-left table-fixed hover:table-fixed ">
-        {data.length === 0 && <caption className="caption-bottom text-[#777575] text-[18px] mt-5 ">
+        {data?.length === 0 && <caption className="caption-bottom text-[#777575] text-[18px] mt-5 ">
             Danh sách trống
         </caption>}
         <thead>

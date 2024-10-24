@@ -9,7 +9,7 @@ function HeaderAdmin() {
           <Search/>
         </div>
         <div className="flex w-[300px] p-[20px] items-center text-[#fff] ">
-           <span> <IoSettingsSharp size={25}/></span>
+           {/* <span> <IoSettingsSharp size={25}/></span> */}
         </div>
     </div> );
 }

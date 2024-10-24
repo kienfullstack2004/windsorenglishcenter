@@ -14,6 +14,8 @@ function PublicAdmin() {
 
     // console.log(getAllFreeLesson);
 
+   
+
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -23,6 +25,8 @@ function PublicAdmin() {
         dispatch(actions.getAllFalseIsFree())
         dispatch(actions.getAllSignUpRecruitment())
     }, [])
+
+   
 
     const location = useLocation();
     let page = location?.pathname?.split('/')[4];
@@ -63,6 +67,8 @@ function PublicAdmin() {
     // if (!isLoggedIn) {
     //     return <Navigate to={path.LOGIN} replace={true} />
     // }
+
+
 
     return (<div className="flex">
         <div className="w-[250px] h-[100vh]">
